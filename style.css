@@ -16,7 +16,7 @@ h1{
 }
 
 form{
-    height: 50%;
+    height: 75vh;
     width: 30%;
     margin: 0 auto;
     padding: 1.5rem;
@@ -58,9 +58,39 @@ button{
     width: 100%;
 }
 
-.contrast-button{
+#contrast-button{
     width: 15rem;
     margin: 1rem auto;
     display: block;
 }
 
+/*modo oscuro*/
+.contrast{
+    background-color: rgb(16, 16, 16);
+    color: white;
+}
+
+.contrast h1{
+    color: rgb(232, 230, 230);
+}
+
+.contrast form{
+    background-color: rgb(45, 45, 45);
+    color: rgb(234, 234, 234);
+    box-shadow: none;
+    border: 1px solid rgba(116, 116, 118, 0.559);
+}
+
+.contrast label{
+    color: rgb(234, 234, 234);
+}
+
+.contrast input{
+    background-color: rgb(62, 62, 62);
+    color: rgb(234, 234, 234);
+    border: 1px solid rgba(116, 116, 118, 0.559);
+}
+
+.contrast button{
+    background-color: rgb(131, 43, 157);
+}
