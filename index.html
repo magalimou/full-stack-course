@@ -26,7 +26,16 @@
             <input type="date" name="fecha-nacimiento" required>
     
             <label for="pais">Pais de Residencia</label>
-            <input type="text" name="pais" required>
+            <input list="paises" name="pais" required>
+            <datalist id="paises">
+                <option value="Argentina">
+                <option value="España">
+                <option value="México">
+                <option value="Chile">
+                <option value="Colombia">
+                <option value="Perú">
+            </datalist>
+
             <button class="submit-button" type="submit">Enviar</button>
         </form>
 
