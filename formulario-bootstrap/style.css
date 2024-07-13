@@ -1,0 +1,32 @@
+/*clase modo oscuro*/
+.contrast {
+    background-color: rgb(30, 29, 29);
+    color: rgb(236, 235, 235);
+}
+
+.contrast input{
+    background-color: rgb(62, 62, 62);
+    color: rgb(234, 234, 234);
+    border: 1px solid rgba(116, 116, 118, 0.559);
+}
+
+.contrast input::placeholder{
+    color: rgb(234, 234, 234);
+}
+
+.contrast input:focus{
+    background-color: rgb(62, 62, 62);
+    color: rgb(234, 234, 234);
+}
+
+.contrast select {
+    background-color: #333; 
+    color: #fff;
+    border: 1px solid #555;
+}
+
+select option {
+    background-color: #333; 
+    color: #fff; 
+}
+
